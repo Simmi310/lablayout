@@ -1,0 +1,72 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: border-box;
+    color: white;
+    font-size: 20px;
+   
+}
+.main{
+    background-color: rgb(230, 232, 230);
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.logo {
+    background-color: rgb(136, 82, 187);
+    padding: 10px;
+}
+.nav{
+    text-align: center;
+}
+.header{
+    background-color:  rgb(148, 71, 219);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 12px;
+    text-align: center;
+}
+.intro {
+    background-color: rgb(148, 71, 219);
+    text-align: center;
+    padding: 10px;
+
+}
+.box{
+    background-color:  rgb(148, 71, 219);
+    display: block;
+    flex: 1;
+    width: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 200px;
+}
+
+
+.footer{
+    background-color: rgb(148, 71, 219);
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+.flex-container {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+  }
+
+.flex-items {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+  
